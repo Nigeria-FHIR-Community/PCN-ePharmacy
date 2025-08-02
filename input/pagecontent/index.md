@@ -34,11 +34,6 @@ ePrescription is a critical step toward improving medication safety, reducing er
 
 The scope of this IG includes simplified FHIR profiles and workflows to support the generation, transmission, and fulfillment of prescriptions. It also includes basic interactions for prescription updates, cancellations, and medication dispensing records, modeled after real-world healthcare processes. Members, get ideas from this CMS guide(https://www.cms.gov/medicare/regulations-guidance/electronic-prescribing/adopted-standard-and-transactions).
 
-<!-- The scope of this guide focuses on the following core components:
-- **Standardizing how immunization clients (patients) are registered and managed**, using the [**NgImmPatient**](StructureDefinition-NgImmPatient.html) profile.
-- **Structuring immunization service delivery records**, such as vaccine administration, using the [**NgImmImmunization**](StructureDefinition-NgImmImmunization.html) profile.
-- **Defining the necessary search parameters, RESTful operations, and data constraints** to ensure interoperable exchange of immunization data across digital platforms.
-- **Providing the minimum data structures required** for systems to exchange immunization-related data across multiple levels of the health system, from point-of-care to national dashboards. -->
 
 #### Use cases covered in this guide
 The IG covers the following key use cases (which will continue to expand in subsequent iterations) by the Nigeria FHIR community:
