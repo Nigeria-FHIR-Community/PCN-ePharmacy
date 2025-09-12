@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: 2025connectathonPrescription
-canonical: https://dhin.org/2025Connectathon
+canonical: https://www.dhin-hie.org/
 name: DHIN 2025 connectathon ePrescription
 title: DHIN 2025 connectathon ePrescription testing
 description: Implementation Guide for testing ePrescription
