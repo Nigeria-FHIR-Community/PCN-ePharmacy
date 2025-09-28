@@ -1369,8 +1369,8 @@
             <mxPoint x="760" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wq6hEbc9yWbJYyUq4L0M-13" value="&lt;span id=&quot;docs-internal-guid-96ee0db9-7fff-908f-940b-16239a6195f6&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;5. Process medication orders.&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="wq6hEbc9yWbJYyUq4L0M-2" vertex="1">
-          <mxGeometry x="598" y="70" width="120" height="70" as="geometry" />
+        <mxCell id="wq6hEbc9yWbJYyUq4L0M-13" value="&lt;span id=&quot;docs-internal-guid-96ee0db9-7fff-908f-940b-16239a6195f6&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;5. Process medication orders for payment and dispensing.&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="wq6hEbc9yWbJYyUq4L0M-2" vertex="1">
+          <mxGeometry x="598" y="65" width="142" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wq6hEbc9yWbJYyUq4L0M-18" value="&lt;span id=&quot;docs-internal-guid-4d4a07a8-7fff-268b-2f1d-739ea49a97e6&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;3. Is the prescription precise?&lt;/span&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="wq6hEbc9yWbJYyUq4L0M-2" vertex="1">
           <mxGeometry x="430" y="44.5" width="120" height="115" as="geometry" />
@@ -1444,8 +1444,8 @@
         <mxCell id="VdsgfVRla6bP0DUbGANj-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;4. Contact prescriber for clarification&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="VdsgfVRla6bP0DUbGANj-1">
           <mxGeometry x="394" y="202" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="VdsgfVRla6bP0DUbGANj-10" value="&lt;span id=&quot;docs-internal-guid-96ee0db9-7fff-908f-940b-16239a6195f6&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;5. Process medication orders.&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="VdsgfVRla6bP0DUbGANj-1">
-          <mxGeometry x="598" y="70" width="120" height="70" as="geometry" />
+        <mxCell id="VdsgfVRla6bP0DUbGANj-10" value="&lt;span style=&quot;font-family: Calibri, sans-serif; font-size: 16px;&quot;&gt;5. Process medication orders for payment and dispensing.&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="VdsgfVRla6bP0DUbGANj-1">
+          <mxGeometry x="598" y="62" width="142" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VdsgfVRla6bP0DUbGANj-11" value="&lt;span id=&quot;docs-internal-guid-4d4a07a8-7fff-268b-2f1d-739ea49a97e6&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;3. Is the prescription precise?&lt;/span&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="VdsgfVRla6bP0DUbGANj-1">
           <mxGeometry x="394" y="43.5" width="120" height="115" as="geometry" />
