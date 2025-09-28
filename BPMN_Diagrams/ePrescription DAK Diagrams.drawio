@@ -833,7 +833,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="453" />
-              <mxPoint x="899" y="453" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -919,10 +918,10 @@
         <mxCell id="_gFDYiK1rWh9bdypSbP6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.004;exitY=0.59;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="YGGdOfqJkp6dKzUBVIcQ-1" source="1SmDXA64TyDHIcgjshg9-5" target="_gFDYiK1rWh9bdypSbP6-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_gFDYiK1rWh9bdypSbP6-4" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;11. Chat with Pharmacist?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="YGGdOfqJkp6dKzUBVIcQ-1">
+        <mxCell id="_gFDYiK1rWh9bdypSbP6-4" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;14. Chat with Pharmacist?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="YGGdOfqJkp6dKzUBVIcQ-1">
           <mxGeometry x="880" y="68" width="120" height="134.44" as="geometry" />
         </mxCell>
-        <mxCell id="_gFDYiK1rWh9bdypSbP6-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;14. Client initiate chat with Pharmacist in selected Pharmacy &lt;i&gt;(&amp;amp; vice vesa)&lt;/i&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="YGGdOfqJkp6dKzUBVIcQ-1">
+        <mxCell id="_gFDYiK1rWh9bdypSbP6-6" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;15. Client initiate chat with Pharmacist in selected Pharmacy &lt;i&gt;(&amp;amp; vice vesa)&lt;/i&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="YGGdOfqJkp6dKzUBVIcQ-1">
           <mxGeometry x="1043" y="97" width="144" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_gFDYiK1rWh9bdypSbP6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="YGGdOfqJkp6dKzUBVIcQ-1" source="_gFDYiK1rWh9bdypSbP6-4" target="_gFDYiK1rWh9bdypSbP6-6">
