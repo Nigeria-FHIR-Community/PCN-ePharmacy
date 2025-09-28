@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="28.2.5" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="28.2.5" pages="15">
   <diagram id="loRlMISOd3kkg8Yv4k69" name="Architecture">
     <mxGraphModel dx="900" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2240,7 +2240,7 @@
         <mxCell id="kuEqVlecw9bTdcvQx2e8-5" value="&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-weight: 400; white-space: pre-wrap;&quot;&gt;system_(ePharmacy_Hub)&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="bj_tqW5MxKWiyFy5y3dj-29" vertex="1">
           <mxGeometry x="20" y="340" width="1600" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="z75IEp7fXHbkh1caXWn_-1" value="&lt;font size=&quot;3&quot; face=&quot;Calibri, sans-serif&quot;&gt;13. Update Compliance status and List on ePharmacy Registry&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" parent="kuEqVlecw9bTdcvQx2e8-5" vertex="1">
+        <mxCell id="z75IEp7fXHbkh1caXWn_-1" value="&lt;font size=&quot;3&quot; face=&quot;Calibri, sans-serif&quot;&gt;12. Update Compliance status and List on ePharmacy Hub (Registry)&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" parent="kuEqVlecw9bTdcvQx2e8-5" vertex="1">
           <mxGeometry x="850" y="45" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="z75IEp7fXHbkh1caXWn_-2" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;API&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="z75IEp7fXHbkh1caXWn_-1" vertex="1">
@@ -2252,7 +2252,7 @@
             <mxPoint x="200" y="84.83000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kuEqVlecw9bTdcvQx2e8-19" value="&lt;font size=&quot;3&quot; face=&quot;Calibri, sans-serif&quot;&gt;12. Update and List on the Hub Medication Registry&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" parent="kuEqVlecw9bTdcvQx2e8-5" vertex="1">
+        <mxCell id="kuEqVlecw9bTdcvQx2e8-19" value="&lt;font size=&quot;3&quot; face=&quot;Calibri, sans-serif&quot;&gt;13. Update and List on the Hub Medication Registry&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" parent="kuEqVlecw9bTdcvQx2e8-5" vertex="1">
           <mxGeometry x="420" y="45" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="kuEqVlecw9bTdcvQx2e8-20" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;API&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="kuEqVlecw9bTdcvQx2e8-19" vertex="1">
@@ -2414,8 +2414,104 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="OLMUteX3UY6ArFsj1QNl" name="l-epharmacy-hub">
-    <mxGraphModel dx="1212" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <diagram id="02dTj-9ah4u-SmaOL0kk" name="l-Pharmacist_complaince">
+    <mxGraphModel dx="1539" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-1" value="&lt;font size=&quot;3&quot; face=&quot;Calibri, sans-serif&quot;&gt;L. Pharmacy Medication Update Compliance&lt;/font&gt;" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;textShadow=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="1030" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-20" value="&lt;font style=&quot;color: light-dark(rgb(26, 26, 26), rgb(255, 255, 255));&quot; face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space: pre-wrap;&quot;&gt;PCN&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="1050" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-21" value="&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-weight: 400; white-space: pre-wrap;&quot;&gt;system_(ePharmacy_Hub)&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-20">
+          <mxGeometry x="20" y="20" width="1030" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-25" value="&lt;font size=&quot;3&quot; face=&quot;Calibri, sans-serif&quot;&gt;13. Update and List on the Hub Medication Registry&lt;/font&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-21">
+          <mxGeometry x="640" y="45" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-26" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;API&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-25">
+          <mxGeometry x="167" y="88.00000000000006" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-27" value="" style="endArrow=classic;html=1;rounded=0;startSize=7;endSize=9;strokeWidth=2;" edge="1" parent="aqZ62dOrl9YLn3p5HuPi-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="104.83000000000004" as="sourcePoint" />
+            <mxPoint x="200" y="84.83000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aqZ62dOrl9YLn3p5HuPi-21" source="aqZ62dOrl9YLn3p5HuPi-51" target="aqZ62dOrl9YLn3p5HuPi-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-51" value="&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve;&quot;&gt;14. &lt;/span&gt;&lt;/font&gt;&lt;span id=&quot;docs-internal-guid-9866c0b5-7fff-3994-7e5a-f73774cbbf53&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Upload Available Medication Stock List to ePharmacy Hub&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-21">
+          <mxGeometry x="420" y="253.5" width="160" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-52" value="&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;15.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span id=&quot;docs-internal-guid-5e1f84df-7fff-4ebc-1bfe-d50679baf1e5&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;&quot;&gt;Validate Medication Codes against Greenbook&lt;/span&gt;&lt;/span&gt;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-21">
+          <mxGeometry x="637" y="225" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-53" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;API&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-52">
+          <mxGeometry x="167" y="88.00000000000006" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-54" value="" style="endArrow=classic;html=1;rounded=0;startSize=7;endSize=9;strokeWidth=2;" edge="1" parent="aqZ62dOrl9YLn3p5HuPi-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="104.83000000000004" as="sourcePoint" />
+            <mxPoint x="200" y="84.83000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-31" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-21">
+          <mxGeometry x="960" y="275" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="aqZ62dOrl9YLn3p5HuPi-21" source="aqZ62dOrl9YLn3p5HuPi-52" target="aqZ62dOrl9YLn3p5HuPi-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.99;exitY=0.564;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="aqZ62dOrl9YLn3p5HuPi-21" source="aqZ62dOrl9YLn3p5HuPi-25" target="aqZ62dOrl9YLn3p5HuPi-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="107" />
+              <mxPoint x="890" y="230" />
+              <mxPoint x="985" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-49" value="&lt;span style=&quot;font-family: Calibri, sans-serif; font-weight: 400; white-space: pre-wrap;&quot;&gt;Pharmacist&lt;/span&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-21">
+          <mxGeometry y="200" width="1030" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aqZ62dOrl9YLn3p5HuPi-49" source="aqZ62dOrl9YLn3p5HuPi-62" target="aqZ62dOrl9YLn3p5HuPi-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-62" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-49">
+          <mxGeometry x="70" y="65" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-39" value="&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve;&quot;&gt;1. Authenticate &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;Calibri, sans-serif&quot;&gt;Authorise&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-49">
+          <mxGeometry x="220" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-40" value="" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-49">
+          <mxGeometry x="226" y="67.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-41" value="" style="endArrow=classic;html=1;rounded=0;startSize=7;endSize=9;strokeWidth=1;fontColor=#939393;strokeColor=#939393;" edge="1" parent="aqZ62dOrl9YLn3p5HuPi-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="123.25999999999999" as="sourcePoint" />
+            <mxPoint x="335" y="103.25999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-42" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;API&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#003300;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-49">
+          <mxGeometry x="298" y="102.99999999999989" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-47" value="Start&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-49">
+          <mxGeometry x="70" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-66" value="&lt;div&gt;End&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="aqZ62dOrl9YLn3p5HuPi-49">
+          <mxGeometry x="960" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aqZ62dOrl9YLn3p5HuPi-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="aqZ62dOrl9YLn3p5HuPi-21" source="aqZ62dOrl9YLn3p5HuPi-39" target="aqZ62dOrl9YLn3p5HuPi-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OLMUteX3UY6ArFsj1QNl" name="m-epharmacy-hub">
+    <mxGraphModel dx="1308" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2446,7 +2542,7 @@
         <mxCell id="PJhsnSI7acCGhOqaojC--29" value="&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve;&quot;&gt;5. &lt;/span&gt;&lt;/font&gt;&lt;span id=&quot;docs-internal-guid-6e920097-7fff-b828-8e1c-256f5cb7e990&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;PCN Oversight &amp;amp; Monitoring&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="PJhsnSI7acCGhOqaojC--2" vertex="1">
           <mxGeometry x="975" y="67.5" width="150" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="PJhsnSI7acCGhOqaojC--31" value="&lt;font style=&quot;font-weight: 700; text-align: center; text-wrap-mode: nowrap;&quot; face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve;&quot;&gt;L._&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot; id=&quot;docs-internal-guid-d39cc006-7fff-47f1-b7eb-e9a4ed605f1a&quot;&gt;&lt;span style=&quot;font-size: 14pt; font-family: Calibri, sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;ePharmacy_Hub&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="PJhsnSI7acCGhOqaojC--2" vertex="1">
+        <mxCell id="PJhsnSI7acCGhOqaojC--31" value="&lt;font style=&quot;font-weight: 700; text-align: center; text-wrap-mode: nowrap;&quot; face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve;&quot;&gt;M._&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot; id=&quot;docs-internal-guid-d39cc006-7fff-47f1-b7eb-e9a4ed605f1a&quot;&gt;&lt;span style=&quot;font-size: 14pt; font-family: Calibri, sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;ePharmacy_Hub&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="PJhsnSI7acCGhOqaojC--2" vertex="1">
           <mxGeometry x="350" y="-30" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PJhsnSI7acCGhOqaojC--32" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeWidth=5;" parent="PJhsnSI7acCGhOqaojC--2" vertex="1">
