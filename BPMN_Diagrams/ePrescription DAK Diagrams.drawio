@@ -1534,7 +1534,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2xGM1WSDwdKoUVJTi5dc" name="f-Billing_Payment">
-    <mxGraphModel dx="2616" dy="1498" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1246" dy="713" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1584,6 +1584,11 @@
         </mxCell>
         <mxCell id="8BWlmXpmZLrR9QQo23fo-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="8BWlmXpmZLrR9QQo23fo-2" source="8BWlmXpmZLrR9QQo23fo-21" target="8BWlmXpmZLrR9QQo23fo-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5FpIkk_TwNhRucdXVsuE-25" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8BWlmXpmZLrR9QQo23fo-20">
+          <mxGeometry x="-0.1791" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8BWlmXpmZLrR9QQo23fo-21" value="&lt;span id=&quot;docs-internal-guid-5e017213-7fff-eff4-f48a-dc3651e2b0d4&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;5. Is&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;payment confirmed?&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="8BWlmXpmZLrR9QQo23fo-2" vertex="1">
           <mxGeometry x="880" y="146.28" width="120" height="116.72" as="geometry" />
@@ -1689,6 +1694,11 @@
         </mxCell>
         <mxCell id="5FpIkk_TwNhRucdXVsuE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5FpIkk_TwNhRucdXVsuE-10" target="8BWlmXpmZLrR9QQo23fo-9">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5FpIkk_TwNhRucdXVsuE-26" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5FpIkk_TwNhRucdXVsuE-17">
+          <mxGeometry x="-0.6765" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5FpIkk_TwNhRucdXVsuE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.855;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5FpIkk_TwNhRucdXVsuE-9" target="8BWlmXpmZLrR9QQo23fo-9">
           <mxGeometry relative="1" as="geometry" />
