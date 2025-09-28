@@ -1728,7 +1728,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RqRfvywbEbSg6sqC0uQ1" name="g-Medication Preparation and Dispensing">
-    <mxGraphModel dx="1308" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1811,7 +1811,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="W3Gnbm-r5BXhqWsx0tzm" name="h-Patient Counseling and Education">
-    <mxGraphModel dx="1308" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1895,7 +1895,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yKQb6EDtVfQY0wfYbikE" name="i-Medication Delivery">
-    <mxGraphModel dx="1308" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
