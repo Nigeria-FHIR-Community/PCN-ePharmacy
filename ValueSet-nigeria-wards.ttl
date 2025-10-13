@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://pcn.gov.ng/ValueSet/nigeria-wards> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "nigeria-wards"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet nigeria-wards</b></p><a name=\"nigeria-wards\"> </a><a name=\"hcnigeria-wards\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-nigeria-wards.html\"><code>https://pcn.gov.ng/CodeSystem/nigeria-wards</code></a> version <span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\">?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://pcn.gov.ng/ValueSet/nigeria-wards"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NGWardsVS"] ; # 
+  fhir:title [ fhir:v "NG-Imm Wards VS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-10-13T08:31:38+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "PCN"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "PCN" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://pcn.gov.ng" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "info@dhin-hie.org" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Pharmacy Council of Nigeria." ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "info@dhin-hie.org" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The administrative Ward (within an LGA) where a person or a facility is."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NG" ] ;
+       fhir:display [ fhir:v "Nigeria" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://pcn.gov.ng/CodeSystem/nigeria-wards"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "nigeria-states",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet nigeria-states</b></p><a name=\"nigeria-states\"> </a><a name=\"hcnigeria-states\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-nigeria-states.html\"><code>https://pcn.gov.ng/CodeSystem/nigeria-states</code></a> version <span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\">&#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "https://pcn.gov.ng/ValueSet/nigeria-states",
+  "version" : "0.1.0",
+  "name" : "NGStatesVS",
+  "title" : "NG-Imm States VS",
+  "status" : "active",
+  "date" : "2025-10-13T08:31:38+01:00",
+  "publisher" : "PCN",
+  "contact" : [{
+    "name" : "PCN",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://pcn.gov.ng"
+    },
+    {
+      "system" : "email",
+      "value" : "info@dhin-hie.org"
+    }]
+  },
+  {
+    "name" : "Pharmacy Council of Nigeria.",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "info@dhin-hie.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "The state where a person or a facility is.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NG",
+      "display" : "Nigeria"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://pcn.gov.ng/CodeSystem/nigeria-states"
+    }]
+  }
+}

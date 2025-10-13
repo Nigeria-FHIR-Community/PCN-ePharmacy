@@ -1,0 +1,2534 @@
+{
+  "date" : "Mon, 13 Oct, 2025 08:32:31 +0100",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-ePharmacyIG.json",
+      "size" : 17402,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 15
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 105
+        },
+        {
+          "activity" : "validate",
+          "start" : 68,
+          "length" : 11753
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 162
+        },
+        {
+          "activity" : "generate2",
+          "start" : 107,
+          "length" : 335
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/AuditEvent-audit-001.json",
+      "size" : 970,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 22
+        },
+        {
+          "activity" : "validate",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 80,
+          "length" : 22
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 108,
+          "length" : 49
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-nigeria-facility-type.json",
+      "size" : 2213,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 59,
+          "length" : 330
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 108,
+          "length" : 1104
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-nigeria-gender.json",
+      "size" : 777,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 17
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 109,
+          "length" : 117
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-nigeria-languages.json",
+      "size" : 2029,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 27
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 109,
+          "length" : 157
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-nigeria-lgas.json",
+      "size" : 81711,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 17
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 41
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 2
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 97
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 741
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 571
+        },
+        {
+          "activity" : "generate2",
+          "start" : 109,
+          "length" : 531
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 29
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-nigeria-location-owner-cs.json",
+      "size" : 901,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 26
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 59
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-nigeria-states.json",
+      "size" : 2835,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 21
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 51
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 83
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-nigeria-wards.json",
+      "size" : 1742,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 54
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 62
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Communication-example-communication.json",
+      "size" : 848,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 580
+        },
+        {
+          "activity" : "validate",
+          "start" : 80,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 26
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 46
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-condition-001.json",
+      "size" : 1058,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 55,
+          "length" : 47
+        },
+        {
+          "activity" : "validate",
+          "start" : 80,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 33
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Coverage-coverage-001.json",
+      "size" : 548,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 56,
+          "length" : 1920
+        },
+        {
+          "activity" : "validate",
+          "start" : 80,
+          "length" : 1993
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CoverageEligibilityRequest-eligibility-request-001.json",
+      "size" : 595,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 82,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 44
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 165,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/DocumentReference-example-document-reference.json",
+      "size" : 1829,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 57,
+          "length" : 183
+        },
+        {
+          "activity" : "validate",
+          "start" : 82,
+          "length" : 1646
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 55
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 51
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 164,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Encounter-encounter-001.json",
+      "size" : 752,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 784
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 46
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-example-location.json",
+      "size" : 695,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 68,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 84,
+          "length" : 32
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 41
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Medication-medication-001.json",
+      "size" : 1011,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 84,
+          "length" : 2717
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 22
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 36
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/MedicationDispense-dispense-001.json",
+      "size" : 1142,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 87,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 59
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/MedicationRequest-medicationrequest-001.json",
+      "size" : 1306,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 87,
+          "length" : 13
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 30
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 48
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Organization-organization-001.json",
+      "size" : 801,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 87,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 21
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 23
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-patient-001.json",
+      "size" : 1451,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 94
+        },
+        {
+          "activity" : "validate",
+          "start" : 87,
+          "length" : 1805
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 42
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Practitioner-practitioner-001.json",
+      "size" : 759,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 89,
+          "length" : 13
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 22
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 30
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/PractitionerRole-practitioner-role-001.json",
+      "size" : 790,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 89,
+          "length" : 1622
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 21
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 28
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Provenance-provenance-001.json",
+      "size" : 975,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 90,
+          "length" : 27
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 40
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-NgPatient.json",
+      "size" : 9464,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 18
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 230
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 85
+        },
+        {
+          "activity" : "validate",
+          "start" : 61,
+          "length" : 1080
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 966
+        },
+        {
+          "activity" : "generate2",
+          "start" : 110,
+          "length" : 2624
+        },
+        {
+          "activity" : "generate2",
+          "start" : 126,
+          "length" : 2985
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 23
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-NgPractitioner.json",
+      "size" : 3213,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 72
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 28
+        },
+        {
+          "activity" : "validate",
+          "start" : 62,
+          "length" : 354
+        },
+        {
+          "activity" : "generate1",
+          "start" : 93,
+          "length" : 357
+        },
+        {
+          "activity" : "generate2",
+          "start" : 113,
+          "length" : 657
+        },
+        {
+          "activity" : "generate2",
+          "start" : 129,
+          "length" : 425
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 9
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-audit-event.json",
+      "size" : 1570,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 89
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 21
+        },
+        {
+          "activity" : "validate",
+          "start" : 62,
+          "length" : 382
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 93,
+          "length" : 382
+        },
+        {
+          "activity" : "generate2",
+          "start" : 114,
+          "length" : 642
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 463
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-claim-coverage.json",
+      "size" : 1159,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 63
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 19
+        },
+        {
+          "activity" : "validate",
+          "start" : 62,
+          "length" : 260
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 276
+        },
+        {
+          "activity" : "generate2",
+          "start" : 114,
+          "length" : 536
+        },
+        {
+          "activity" : "generate2",
+          "start" : 130,
+          "length" : 297
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 165,
+          "length" : 9
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-claim-task.json",
+      "size" : 961,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 62
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 429
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 309
+        },
+        {
+          "activity" : "generate2",
+          "start" : 115,
+          "length" : 560
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 355
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 10
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-communication.json",
+      "size" : 1183,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 43
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 18
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 150
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 222
+        },
+        {
+          "activity" : "generate2",
+          "start" : 115,
+          "length" : 413
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 218
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-condition.json",
+      "size" : 1675,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 46
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 118
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 187
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 95,
+          "length" : 270
+        },
+        {
+          "activity" : "generate2",
+          "start" : 116,
+          "length" : 502
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 227
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-coverage-enquiry-bundle.json",
+      "size" : 3782,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 257
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 55
+        },
+        {
+          "activity" : "validate",
+          "start" : 63,
+          "length" : 900
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 95,
+          "length" : 1043
+        },
+        {
+          "activity" : "generate2",
+          "start" : 116,
+          "length" : 1452
+        },
+        {
+          "activity" : "generate2",
+          "start" : 131,
+          "length" : 1285
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 29
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-dispense-notification-bundle.json",
+      "size" : 5005,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 51,
+          "length" : 303
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 138
+        },
+        {
+          "activity" : "validate",
+          "start" : 64,
+          "length" : 1090
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 96,
+          "length" : 1350
+        },
+        {
+          "activity" : "generate2",
+          "start" : 118,
+          "length" : 1629
+        },
+        {
+          "activity" : "generate2",
+          "start" : 133,
+          "length" : 1439
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 37
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-document-reference.json",
+      "size" : 1635,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 54
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 64
+        },
+        {
+          "activity" : "validate",
+          "start" : 65,
+          "length" : 176
+        },
+        {
+          "activity" : "generate1",
+          "start" : 97,
+          "length" : 341
+        },
+        {
+          "activity" : "generate2",
+          "start" : 119,
+          "length" : 408
+        },
+        {
+          "activity" : "generate2",
+          "start" : 134,
+          "length" : 239
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-dosage.json",
+      "size" : 964,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 35
+        },
+        {
+          "activity" : "scan",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 33
+        },
+        {
+          "activity" : "validate",
+          "start" : 66,
+          "length" : 119
+        },
+        {
+          "activity" : "generate1",
+          "start" : 98,
+          "length" : 169
+        },
+        {
+          "activity" : "generate2",
+          "start" : 120,
+          "length" : 269
+        },
+        {
+          "activity" : "generate2",
+          "start" : 134,
+          "length" : 143
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-eligibility-request.json",
+      "size" : 1399,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 39
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 58,
+          "length" : 253
+        },
+        {
+          "activity" : "validate",
+          "start" : 66,
+          "length" : 216
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 98,
+          "length" : 276
+        },
+        {
+          "activity" : "generate2",
+          "start" : 120,
+          "length" : 432
+        },
+        {
+          "activity" : "generate2",
+          "start" : 134,
+          "length" : 238
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 9
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-imm-organization.json",
+      "size" : 4114,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 10
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 30
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 63
+        },
+        {
+          "activity" : "validate",
+          "start" : 66,
+          "length" : 212
+        },
+        {
+          "activity" : "generate1",
+          "start" : 98,
+          "length" : 387
+        },
+        {
+          "activity" : "generate2",
+          "start" : 121,
+          "length" : 574
+        },
+        {
+          "activity" : "generate2",
+          "start" : 135,
+          "length" : 227
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 9
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-location.json",
+      "size" : 1049,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 10
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 47
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 31
+        },
+        {
+          "activity" : "validate",
+          "start" : 66,
+          "length" : 156
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 98,
+          "length" : 262
+        },
+        {
+          "activity" : "generate2",
+          "start" : 121,
+          "length" : 313
+        },
+        {
+          "activity" : "generate2",
+          "start" : 135,
+          "length" : 162
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-medication-dispense.json",
+      "size" : 1337,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 29
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 35
+        },
+        {
+          "activity" : "validate",
+          "start" : 66,
+          "length" : 184
+        },
+        {
+          "activity" : "generate1",
+          "start" : 99,
+          "length" : 266
+        },
+        {
+          "activity" : "generate2",
+          "start" : 121,
+          "length" : 358
+        },
+        {
+          "activity" : "generate2",
+          "start" : 135,
+          "length" : 199
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-medication-request.json",
+      "size" : 1751,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 29
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 48
+        },
+        {
+          "activity" : "validate",
+          "start" : 66,
+          "length" : 209
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 99,
+          "length" : 398
+        },
+        {
+          "activity" : "generate2",
+          "start" : 122,
+          "length" : 471
+        },
+        {
+          "activity" : "generate2",
+          "start" : 135,
+          "length" : 261
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-medication.json",
+      "size" : 1022,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 66
+        },
+        {
+          "activity" : "validate",
+          "start" : 67,
+          "length" : 100
+        },
+        {
+          "activity" : "generate1",
+          "start" : 99,
+          "length" : 194
+        },
+        {
+          "activity" : "generate2",
+          "start" : 122,
+          "length" : 271
+        },
+        {
+          "activity" : "generate2",
+          "start" : 136,
+          "length" : 144
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-practitionerrole.json",
+      "size" : 1026,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 43
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 24
+        },
+        {
+          "activity" : "validate",
+          "start" : 67,
+          "length" : 111
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 100,
+          "length" : 212
+        },
+        {
+          "activity" : "generate2",
+          "start" : 122,
+          "length" : 282
+        },
+        {
+          "activity" : "generate2",
+          "start" : 136,
+          "length" : 150
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 7
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-prescription-bundle.json",
+      "size" : 4911,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 215
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 120
+        },
+        {
+          "activity" : "validate",
+          "start" : 67,
+          "length" : 794
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 100,
+          "length" : 1627
+        },
+        {
+          "activity" : "generate2",
+          "start" : 123,
+          "length" : 1284
+        },
+        {
+          "activity" : "generate2",
+          "start" : 136,
+          "length" : 1208
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 34
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-prescription-encounter.json",
+      "size" : 1047,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 50
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 36
+        },
+        {
+          "activity" : "validate",
+          "start" : 68,
+          "length" : 241
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 80,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 101,
+          "length" : 461
+        },
+        {
+          "activity" : "generate2",
+          "start" : 124,
+          "length" : 468
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 339
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 10
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 212,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 212,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ng-provenance.json",
+      "size" : 1085,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 51,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 19
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 68,
+          "length" : 104
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 402
+        },
+        {
+          "activity" : "generate2",
+          "start" : 125,
+          "length" : 303
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 162
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Task-example-claim-task.json",
+      "size" : 635,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 91,
+          "length" : 21
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 125,
+          "length" : 45
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-nigeria-facility-types.json",
+      "size" : 422,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 162
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 19
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 125,
+          "length" : 115
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-nigeria-gender.json",
+      "size" : 409,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 26
+        },
+        {
+          "activity" : "generate2",
+          "start" : 125,
+          "length" : 52
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-nigeria-languages.json",
+      "size" : 402,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 125,
+          "length" : 84
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-nigeria-lgas.json",
+      "size" : 400,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 60,
+          "length" : 12
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 125,
+          "length" : 1066
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-nigeria-location-owner.json",
+      "size" : 416,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 61,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 30
+        },
+        {
+          "activity" : "generate2",
+          "start" : 126,
+          "length" : 57
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-nigeria-states.json",
+      "size" : 378,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 12
+        },
+        {
+          "activity" : "validate",
+          "start" : 61,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 126,
+          "length" : 103
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-nigeria-wards.json",
+      "size" : 403,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 50,
+          "length" : 6
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 55,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 12
+        },
+        {
+          "activity" : "validate",
+          "start" : 61,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 102,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 126,
+          "length" : 64
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 166,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

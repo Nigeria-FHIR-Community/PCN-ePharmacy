@@ -1,0 +1,55 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "nigeria-gender",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem nigeria-gender</b></p><a name=\"nigeria-gender\"> </a><a name=\"hcnigeria-gender\"> </a><p>This  code system <code>https://pcn.gov.ng/CodeSystem/nigeria-gender</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">male<a name=\"nigeria-gender-male\"> </a></td><td>Client is of the male gender</td></tr><tr><td style=\"white-space:nowrap\">female<a name=\"nigeria-gender-female\"> </a></td><td>Client is of the female gender</td></tr></table></div>"
+  },
+  "url" : "https://pcn.gov.ng/CodeSystem/nigeria-gender",
+  "version" : "0.1.0",
+  "name" : "NGGenderCS",
+  "title" : "NG-Imm Gender CS",
+  "status" : "active",
+  "date" : "2025-10-13T08:31:38+01:00",
+  "publisher" : "PCN",
+  "contact" : [{
+    "name" : "PCN",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://pcn.gov.ng"
+    },
+    {
+      "system" : "email",
+      "value" : "info@dhin-hie.org"
+    }]
+  },
+  {
+    "name" : "Pharmacy Council of Nigeria.",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "info@dhin-hie.org",
+      "use" : "work"
+    }]
+  }],
+  "description" : "The administrative gender of a person.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NG",
+      "display" : "Nigeria"
+    }]
+  }],
+  "hierarchyMeaning" : "is-a",
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "male",
+    "display" : "male",
+    "definition" : "Client is of the male gender"
+  },
+  {
+    "code" : "female",
+    "display" : "female",
+    "definition" : "Client is of the female gender"
+  }]
+}

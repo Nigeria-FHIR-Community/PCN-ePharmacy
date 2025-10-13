@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Home - PCN ePharmacy Implementation Guide v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">PCN ePharmacy Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+
+  <img alt="Nigeria flag" src="assets/images/nga.svg" height="16" title="Nigeria"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav"> 
+
+  <li> <a href="index.html" class="dropdown-toggle">Home</a></li> 
+  <li> <a href="artifacts.html" class="dropdown-toggle">Artifacts</a></li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">PCN ePharmacy Implementation Guide - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://pcn.gov.ng/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://pcn.gov.ng/ImplementationGuide/ePharmacyIG<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://pcn.gov.ng/ImplementationGuide/ePharmacyIG"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://pcn.gov.ng/ImplementationGuide/ePharmacyIG|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-10-13
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ePharmacyIG</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+
+<h1 id="nigeria-epharmacy-fhir-implementation-guide">Nigeria ePharmacy FHIR Implementation Guide</h1>
+
+<p>This Implementation Guide (IG) defines the <strong>FHIR-based logical and interoperability layer</strong> for the
+<strong>National ePharmacy Platform</strong>, translating the <em>Pharmacy Council of Nigeria (PCN)</em>
+business and technical requirements into machine-readable artefacts.</p>
+
+<p>It builds directly on the <strong>WHO SMART Guidelines Layer 2 Digital Adaptation Kit (DAK)</strong>
+methodology and aligns with the following key reference frameworks:</p>
+
+<ul>
+  <li>Nigeria National Prescription and Dispensing Policy (2025)</li>
+  <li>Draft Electronic Pharmacy Regulations (2024)</li>
+  <li>NIS ISO 17523:2019 – Health Informatics Requirements for Electronic Prescriptions</li>
+  <li>FIP/WHO Guidelines on Good Pharmacy Practice (2012)</li>
+  <li>NDPA 2023 &amp; FCCPC Consumer Protection Guidelines</li>
+  <li>NAFDAC Greenbook and MED Safety APIs</li>
+</ul>
+
+<hr />
+
+<h2 id="background-and-purpose">Background and Purpose</h2>
+
+<p>Digital technologies are transforming healthcare. Yet pharmacy services in Nigeria remain fragmented,
+with manual workflows, poor data visibility, and limited interoperability.<br />
+This IG provides a <strong>standards-based blueprint</strong> for integrating prescription,
+dispensing, and regulatory oversight systems across the country.</p>
+
+<p>Through FHIR profiles, value sets, extensions, and exchange patterns, the guide supports:</p>
+
+<ul>
+  <li><strong>ePrescription Generation</strong> by statutory and non-statutory prescribers</li>
+  <li><strong>eDispensing and ADR Monitoring</strong> with regulatory compliance</li>
+  <li><strong>Licensing &amp; Renewal</strong> of ePharmacies through PCN Hub APIs</li>
+  <li><strong>Integration with NHIA, MDCN, NAFDAC, and NIMC Registries</strong></li>
+  <li><strong>Public dashboards and compliance analytics</strong> for transparency</li>
+</ul>
+
+<hr />
+
+<h2 id="intended-audience">Intended Audience</h2>
+
+<ul>
+  <li>Pharmacy Council of Nigeria – Regulatory and ICT Departments</li>
+  <li>ePharmacy platform developers and aggregators</li>
+  <li>Hospital and Community Pharmacy operators</li>
+  <li>Prescribers, Pharmacists, and Technicians</li>
+  <li>NHIA, MDCN, NAFDAC integration teams</li>
+  <li>Standards organizations (SON, NITDA, NDPC)</li>
+</ul>
+
+<hr />
+
+<h2 id="epharmacy-enterprise-architecture">ePharmacy Enterprise Architecture</h2>
+
+<p>The <strong>PCN Enterprise Architecture</strong> follows a <em>hub-and-spoke model</em>:
+a central <strong>ePharmacy Hub</strong> connects regulatory systems, shared registries,
+and external ePharmacy platforms via secure APIs.
+It ensures interoperability among prescribers, pharmacies, insurers,
+and regulators while enforcing data privacy and traceability.</p>
+
+<p><em>(Architecture diagram appears in Component 1 of the Specification.)</em></p>
+
+<hr />
+
+<h2 id="ig-components">IG Components</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Layer</th>
+      <th>Description</th>
+      <th>Source Section (DAK)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Personas</strong></td>
+      <td>Profiles of clients, prescribers, dispensers, inspectors</td>
+      <td>Component 2</td>
+    </tr>
+    <tr>
+      <td><strong>User Scenarios</strong></td>
+      <td>Narrative use cases from registration to delivery &amp; ADR reporting</td>
+      <td>Component 3</td>
+    </tr>
+    <tr>
+      <td><strong>Business Processes / BPMN</strong></td>
+      <td>ePharmacy Registration → Dispensing → Compliance</td>
+      <td>Component 4</td>
+    </tr>
+    <tr>
+      <td><strong>Core Data Elements</strong></td>
+      <td>Data dictionary for prescription, dispensing, billing, ADR</td>
+      <td>Component 5</td>
+    </tr>
+    <tr>
+      <td><strong>Decision Support Logic</strong></td>
+      <td>Rule tables (PD.DT 1-34) governing validation &amp; safety</td>
+      <td>Component 6</td>
+    </tr>
+    <tr>
+      <td><strong>Indicators &amp; Monitoring</strong></td>
+      <td>KPIs for regulatory oversight and service quality</td>
+      <td>Component 7</td>
+    </tr>
+    <tr>
+      <td><strong>Functional / Non-Functional Reqs</strong></td>
+      <td>74 functional + 69 non-functional specs</td>
+      <td>Component 8</td>
+    </tr>
+    <tr>
+      <td><strong>UI Mock-ups</strong></td>
+      <td>Sample interfaces for regulators and operators</td>
+      <td>Component 9</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="key-fhir-profiles">Key FHIR Profiles</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Example Profiles / Artifacts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Licensing &amp; Facility Registry</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">Organization (PCN License)</code> • <code class="language-plaintext highlighter-rouge">Location (ePharmacy Premises)</code></td>
+    </tr>
+    <tr>
+      <td><strong>Prescriber &amp; Dispenser Identity</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">Practitioner</code>, <code class="language-plaintext highlighter-rouge">PractitionerRole</code>, <code class="language-plaintext highlighter-rouge">Endpoint (MDCN / PCN)</code></td>
+    </tr>
+    <tr>
+      <td><strong>ePrescription Workflow</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">Task (Prescription Request)</code> • <code class="language-plaintext highlighter-rouge">MedicationRequest</code> • <code class="language-plaintext highlighter-rouge">MedicationDispense</code></td>
+    </tr>
+    <tr>
+      <td><strong>Payment &amp; Claims</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">Claim</code>, <code class="language-plaintext highlighter-rouge">ClaimResponse</code>, <code class="language-plaintext highlighter-rouge">Invoice</code>, <code class="language-plaintext highlighter-rouge">PaymentNotice</code> (NHIA integration)</td>
+    </tr>
+    <tr>
+      <td><strong>Pharmacovigilance &amp; ADR</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">AdverseEvent</code>, <code class="language-plaintext highlighter-rouge">Observation</code>, <code class="language-plaintext highlighter-rouge">DetectedIssue</code>, <code class="language-plaintext highlighter-rouge">Communication</code></td>
+    </tr>
+    <tr>
+      <td><strong>Compliance &amp; Inspection</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">Task (Inspection)</code>, <code class="language-plaintext highlighter-rouge">DocumentReference (Compliance Report)</code></td>
+    </tr>
+    <tr>
+      <td><strong>Hub Interoperability</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">Bundle (Transaction / Collection)</code>, <code class="language-plaintext highlighter-rouge">Subscription</code>, <code class="language-plaintext highlighter-rouge">AuditEvent</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="implementation-approach">Implementation Approach</h2>
+
+<p>The IG translation follows these steps:</p>
+
+<ol>
+  <li><strong>Map DAK components to FHIR Resources</strong><br />
+(Personas → Practitioner/Patient; Workflows → Task/ActivityDefinition)</li>
+  <li><strong>Define Profiles and Extensions</strong><br />
+per business rules (e.g., <code class="language-plaintext highlighter-rouge">NGPrescriptionType</code>, <code class="language-plaintext highlighter-rouge">NGDispenseChannel</code>)</li>
+  <li><strong>Bind CodeSystems and ValueSets</strong><br />
+referencing national terminologies and SNOMED-CT/ATC cross-maps</li>
+  <li><strong>Generate Examples and Test Bundles</strong></li>
+  <li><strong>Publish IG</strong> via FHIR CI Build for stakeholder review</li>
+  <li><strong>Validate using IHE Gazelle / FHIR Validator</strong></li>
+</ol>
+
+<hr />
+
+<h2 id="governance-and-next-steps">Governance and Next Steps</h2>
+
+<p>Development is coordinated by <strong>PCN ICT Department</strong> with technical support from <strong>DHIN</strong> under the <strong>SFH ePharmacy4FP Project</strong>, with inputs from NITDA, NAFDAC, NHIA, and SON.<br />
+The next release (v0.2.0) will introduce conformance resources and bundle examples for core transactions (Registration, Prescription, Dispensing, ADR reporting).</p>
+
+<hr />
+
+<p>© 2025 Pharmacy Council of Nigeria</p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://pcn.gov.ng">PCN</a>.  Package ePharmacyIG#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 13, 2025 08:32+0100">2025-10-13</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

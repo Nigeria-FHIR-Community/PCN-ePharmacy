@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nigeria-lgas"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet nigeria-lgas</b></p><a name="nigeria-lgas"> </a><a name="hcnigeria-lgas"> </a><ul><li>Include all codes defined in <a href="CodeSystem-nigeria-lgas.html"><code>https://pcn.gov.ng/CodeSystem/nigeria-lgas</code></a> version <span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="https://pcn.gov.ng/ValueSet/nigeria-lgas"/>
+  <version value="0.1.0"/>
+  <name value="NGLGAsVS"/>
+  <title value="NG-Imm LGAs VS"/>
+  <status value="active"/>
+  <date value="2025-10-13T08:31:38+01:00"/>
+  <publisher value="PCN"/>
+  <contact>
+    <name value="PCN"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://pcn.gov.ng"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@dhin-hie.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Pharmacy Council of Nigeria."/>
+    <telecom>
+      <system value="email"/>
+      <value value="info@dhin-hie.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="The administrative Local Government Areas where a person or a facility is."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NG"/>
+      <display value="Nigeria"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://pcn.gov.ng/CodeSystem/nigeria-lgas"/>
+    </include>
+  </compose>
+</ValueSet>

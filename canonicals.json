@@ -1,0 +1,254 @@
+[
+  {
+    "id" : "nigeria-facility-type",
+    "type" : "CodeSystem",
+    "url" : "https://pcn.gov.ng/CodeSystem/nigeria-facility-type",
+    "version" : "0.1.0",
+    "name" : "NGFacilityTypeCS"
+  },
+  {
+    "id" : "nigeria-gender",
+    "type" : "CodeSystem",
+    "url" : "https://pcn.gov.ng/CodeSystem/nigeria-gender",
+    "version" : "0.1.0",
+    "name" : "NGGenderCS"
+  },
+  {
+    "id" : "nigeria-languages",
+    "type" : "CodeSystem",
+    "url" : "https://pcn.gov.ng/CodeSystem/nigeria-languages",
+    "version" : "0.1.0",
+    "name" : "NGLanguagesCS"
+  },
+  {
+    "id" : "nigeria-lgas",
+    "type" : "CodeSystem",
+    "url" : "https://pcn.gov.ng/CodeSystem/nigeria-lgas",
+    "version" : "0.1.0",
+    "name" : "NGLGAsCS"
+  },
+  {
+    "id" : "nigeria-location-owner-cs",
+    "type" : "CodeSystem",
+    "url" : "https://pcn.gov.ng/CodeSystem/nigeria-location-owner-cs",
+    "version" : "0.1.0",
+    "name" : "NGOrganizationOwnerCS"
+  },
+  {
+    "id" : "nigeria-states",
+    "type" : "CodeSystem",
+    "url" : "https://pcn.gov.ng/CodeSystem/nigeria-states",
+    "version" : "0.1.0",
+    "name" : "NGStatesCS"
+  },
+  {
+    "id" : "nigeria-wards",
+    "type" : "CodeSystem",
+    "url" : "https://pcn.gov.ng/CodeSystem/nigeria-wards",
+    "version" : "0.1.0",
+    "name" : "NGWardsCS"
+  },
+  {
+    "id" : "ePharmacyIG",
+    "type" : "ImplementationGuide",
+    "url" : "https://pcn.gov.ng/ImplementationGuide/ePharmacyIG",
+    "version" : "0.1.0",
+    "name" : "ePharmacyIG"
+  },
+  {
+    "id" : "NgPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/NgPatient",
+    "version" : "0.1.0",
+    "name" : "NgPatient"
+  },
+  {
+    "id" : "NgPractitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/NgPractitioner",
+    "version" : "0.1.0",
+    "name" : "NgPractitioner"
+  },
+  {
+    "id" : "ng-audit-event",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-audit-event",
+    "version" : "0.1.0",
+    "name" : "NgAuditEvent"
+  },
+  {
+    "id" : "ng-claim-coverage",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-claim-coverage",
+    "version" : "0.1.0",
+    "name" : "NgClaimCoverage"
+  },
+  {
+    "id" : "ng-claim-task",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-claim-task",
+    "version" : "0.1.0",
+    "name" : "NgTask"
+  },
+  {
+    "id" : "ng-communication",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-communication",
+    "version" : "0.1.0",
+    "name" : "NgCommunication"
+  },
+  {
+    "id" : "ng-condition",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-condition",
+    "version" : "0.1.0",
+    "name" : "NgCondition"
+  },
+  {
+    "id" : "ng-coverage-enquiry-bundle",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-coverage-enquiry-bundle",
+    "version" : "0.1.0",
+    "name" : "NgCoverageEnquiryBundle"
+  },
+  {
+    "id" : "ng-dispense-notification-bundle",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-dispense-notification-bundle",
+    "version" : "0.1.0",
+    "name" : "NgDispenseNotificationBundle"
+  },
+  {
+    "id" : "ng-document-reference",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-document-reference",
+    "version" : "0.1.0",
+    "name" : "NgDocumentReference"
+  },
+  {
+    "id" : "ng-dosage",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-dosage",
+    "version" : "0.1.0",
+    "name" : "NgDosage"
+  },
+  {
+    "id" : "ng-eligibility-request",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-eligibility-request",
+    "version" : "0.1.0",
+    "name" : "NgCoverageEligibilityRequest"
+  },
+  {
+    "id" : "ng-imm-organization",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-imm-organization",
+    "version" : "0.1.0",
+    "name" : "NgOrganization"
+  },
+  {
+    "id" : "ng-location",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-location",
+    "version" : "0.1.0",
+    "name" : "NgLocation"
+  },
+  {
+    "id" : "ng-medication",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-medication",
+    "version" : "0.1.0",
+    "name" : "NgMedication"
+  },
+  {
+    "id" : "ng-medication-dispense",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-medication-dispense",
+    "version" : "0.1.0",
+    "name" : "NgMedicationDispense"
+  },
+  {
+    "id" : "ng-medication-request",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-medication-request",
+    "version" : "0.1.0",
+    "name" : "NgMedicationRequest"
+  },
+  {
+    "id" : "ng-practitionerrole",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-practitionerrole",
+    "version" : "0.1.0",
+    "name" : "NgPractitionerRole"
+  },
+  {
+    "id" : "ng-prescription-bundle",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-prescription-bundle",
+    "version" : "0.1.0",
+    "name" : "NgPrescriptionBundle"
+  },
+  {
+    "id" : "ng-prescription-encounter",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-prescription-encounter",
+    "version" : "0.1.0",
+    "name" : "NgEncounter"
+  },
+  {
+    "id" : "ng-provenance",
+    "type" : "StructureDefinition",
+    "url" : "https://pcn.gov.ng/StructureDefinition/ng-provenance",
+    "version" : "0.1.0",
+    "name" : "NgProvenance"
+  },
+  {
+    "id" : "nigeria-facility-types",
+    "type" : "ValueSet",
+    "url" : "https://pcn.gov.ng/ValueSet/nigeria-facility-types",
+    "version" : "0.1.0",
+    "name" : "NGFacilityTypeVS"
+  },
+  {
+    "id" : "nigeria-gender",
+    "type" : "ValueSet",
+    "url" : "https://pcn.gov.ng/ValueSet/nigeria-gender",
+    "version" : "0.1.0",
+    "name" : "NGGenderVS"
+  },
+  {
+    "id" : "nigeria-languages",
+    "type" : "ValueSet",
+    "url" : "https://pcn.gov.ng/ValueSet/nigeria-languages",
+    "version" : "0.1.0",
+    "name" : "NGLanguagesVS"
+  },
+  {
+    "id" : "nigeria-lgas",
+    "type" : "ValueSet",
+    "url" : "https://pcn.gov.ng/ValueSet/nigeria-lgas",
+    "version" : "0.1.0",
+    "name" : "NGLGAsVS"
+  },
+  {
+    "id" : "nigeria-location-owner",
+    "type" : "ValueSet",
+    "url" : "https://pcn.gov.ng/ValueSet/nigeria-location-owner",
+    "version" : "0.1.0",
+    "name" : "NGOrganizationOwnerVS"
+  },
+  {
+    "id" : "nigeria-states",
+    "type" : "ValueSet",
+    "url" : "https://pcn.gov.ng/ValueSet/nigeria-states",
+    "version" : "0.1.0",
+    "name" : "NGStatesVS"
+  },
+  {
+    "id" : "nigeria-wards",
+    "type" : "ValueSet",
+    "url" : "https://pcn.gov.ng/ValueSet/nigeria-wards",
+    "version" : "0.1.0",
+    "name" : "NGWardsVS"
+  }
+]

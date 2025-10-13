@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nigeria-gender"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet nigeria-gender</b></p><a name="nigeria-gender"> </a><a name="hcnigeria-gender"> </a><ul><li>Include all codes defined in <a href="CodeSystem-nigeria-gender.html"><code>https://pcn.gov.ng/CodeSystem/nigeria-gender</code></a> version <span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="https://pcn.gov.ng/ValueSet/nigeria-gender"/>
+  <version value="0.1.0"/>
+  <name value="NGGenderVS"/>
+  <title value="NG-Imm Gender or Sex VS"/>
+  <status value="draft"/>
+  <date value="2025-10-13T08:31:38+01:00"/>
+  <publisher value="PCN"/>
+  <contact>
+    <name value="PCN"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://pcn.gov.ng"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@dhin-hie.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Pharmacy Council of Nigeria."/>
+    <telecom>
+      <system value="email"/>
+      <value value="info@dhin-hie.org"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Subset of HL7 administrative-gender limited to 'male' and 'female'."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NG"/>
+      <display value="Nigeria"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://pcn.gov.ng/CodeSystem/nigeria-gender"/>
+    </include>
+  </compose>
+</ValueSet>

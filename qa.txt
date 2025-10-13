@@ -1,0 +1,611 @@
+ePharmacyIG : Validation Results
+=========================================
+
+err = 59, warn = 59, info = 5
+IG Publisher Version: 2.0.20
+Generated Mon Oct 13 08:35:13 WAT 2025. FHIR version 4.0.1 for ePharmacyIG#0.1.0 (canonical = https://pcn.gov.ng)
+ Build Errors : 14 / 365 / 0
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/AuditEvent-audit-001 : 4 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/CodeSystem-nigeria-facility-type : 0 / 2 / 2
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/CodeSystem-nigeria-gender : 0 / 2 / 2
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/CodeSystem-nigeria-languages : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/CodeSystem-nigeria-lgas : 0 / 2 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/CodeSystem-nigeria-location-owner-cs : 0 / 2 / 2
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/CodeSystem-nigeria-states : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/CodeSystem-nigeria-wards : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Communication-example-communication : 2 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Condition-condition-001 : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Coverage-coverage-001 : 3 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/CoverageEligibilityRequest-eligibility-request-001 : 6 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/DocumentReference-example-document-reference : 4 / 2 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Encounter-encounter-001 : 2 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/ImplementationGuide-ePharmacyIG : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Location-example-location : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Medication-medication-001 : 1 / 2 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/MedicationDispense-dispense-001 : 5 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/MedicationRequest-medicationrequest-001 : 5 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Organization-organization-001 : 5 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Patient-patient-001 : 8 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Practitioner-practitioner-001 : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/PractitionerRole-practitioner-role-001 : 1 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Provenance-provenance-001 : 4 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-NgPatient : 1 / 0 / 2
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-NgPractitioner : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-audit-event : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-claim-coverage : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-claim-task : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-communication : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-condition : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-coverage-enquiry-bundle : 0 / 7 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-dispense-notification-bundle : 0 / 9 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-document-reference : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-dosage : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-eligibility-request : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-imm-organization : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-location : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-medication : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-medication-dispense : 0 / 0 / 2
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-medication-request : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-practitionerrole : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-prescription-bundle : 0 / 9 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-prescription-encounter : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/StructureDefinition-ng-provenance : 0 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/Task-example-claim-task : 6 / 0 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/ValueSet-nigeria-facility-types : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/ValueSet-nigeria-gender : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/ValueSet-nigeria-languages : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/ValueSet-nigeria-lgas : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/ValueSet-nigeria-location-owner : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/ValueSet-nigeria-states : 0 / 1 / 1
+ /Users/emekachukwu/Desktop/FutureFitProjects/PCN-ePharmacy/fsh-generated/resources/ValueSet-nigeria-wards : 0 / 1 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+ERROR: package.tgz: Error converting pacakge to R4B: Error processing example/CoverageEligibilityRequest-eligibility-request-001.json: Unknown EligibilityRequestPurpose code 'test'
+WARNING: AuditEvent-audit-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+ERROR: AuditEvent-audit-001.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 170, column 1280: The link 'Organization/org-hospital' for "Organization/org-hospital" cannot be resolved
+ERROR: AuditEvent-audit-001.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 170, column 1521: The link 'MedicationRequest/example-medication-request' for "MedicationRequest/example-medication-request" cannot be resolved
+WARNING: AuditEvent-audit-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: AuditEvent-audit-001.json.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: AuditEvent-audit-001.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: AuditEvent-audit-001.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-facility-type-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-facility-type.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-facility-type.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-facility-type.json.html#/html/body/div/div/div/p/a at Line 296, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-facility-type.ttl.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-facility-type.xml.html#/html/body/div/div/div/p/a at Line 291, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-gender-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-gender.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-gender.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-gender.json.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-gender.ttl.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-gender.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-languages-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-languages.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-languages.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-languages.json.html#/html/body/div/div/div/p/a at Line 355, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-languages.ttl.html#/html/body/div/div/div/p/a at Line 327, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-languages.xml.html#/html/body/div/div/div/p/a at Line 344, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-lgas-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-lgas.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-lgas.html#/html/body/div/div/div/p/a at Line 2567, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-lgas.json.html#/html/body/div/div/div/p/a at Line 4137, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-lgas.ttl.html#/html/body/div/div/div/p/a at Line 3357, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-lgas.xml.html#/html/body/div/div/div/p/a at Line 4126, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-location-owner-cs-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-location-owner-cs.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-location-owner-cs.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-location-owner-cs.json.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-location-owner-cs.ttl.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-location-owner-cs.xml.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-states-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-states.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-states.html#/html/body/div/div/div/p/a at Line 319, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-states.json.html#/html/body/div/div/div/p/a at Line 415, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-states.ttl.html#/html/body/div/div/div/p/a at Line 372, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-states.xml.html#/html/body/div/div/div/p/a at Line 404, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-wards-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-wards.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-wards.html#/html/body/div/div/div/p/a at Line 275, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-wards.json.html#/html/body/div/div/div/p/a at Line 317, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-wards.ttl.html#/html/body/div/div/div/p/a at Line 301, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CodeSystem-nigeria-wards.xml.html#/html/body/div/div/div/p/a at Line 306, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Communication-example-communication.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Communication-example-communication.html#/html/body/div/div/div/div/div/div/p/a at Line 170, column 929: The link 'Practitioner/pharmacist-001' for "Practitioner/pharmacist-001" cannot be resolved
+WARNING: Communication-example-communication.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Communication-example-communication.json.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Communication-example-communication.ttl.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Communication-example-communication.xml.html#/html/body/div/div/div/p/a at Line 229, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Condition-condition-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Condition-condition-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Condition-condition-001.json.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Condition-condition-001.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Condition-condition-001.xml.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Coverage-coverage-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Coverage-coverage-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Coverage-coverage-001.json.html#/html/body/div/div/div/p/a at Line 228, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Coverage-coverage-001.ttl.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Coverage-coverage-001.xml.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CoverageEligibilityRequest-eligibility-request-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CoverageEligibilityRequest-eligibility-request-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CoverageEligibilityRequest-eligibility-request-001.json.html#/html/body/div/div/div/p/a at Line 229, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CoverageEligibilityRequest-eligibility-request-001.ttl.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: CoverageEligibilityRequest-eligibility-request-001.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: DocumentReference-example-document-reference.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+ERROR: DocumentReference-example-document-reference.html#/html/body/div/div/div/div/div/div/p/a at Line 170, column 1025: The link 'Organization/org-hospital' for "Organization/org-hospital" cannot be resolved
+WARNING: DocumentReference-example-document-reference.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: DocumentReference-example-document-reference.json.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: DocumentReference-example-document-reference.ttl.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: DocumentReference-example-document-reference.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-encounter-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Encounter-encounter-001.html#/html/body/div/div/div/div/div/div/p/a at Line 170, column 918: The link 'Organization/org-hospital' for "Organization/org-hospital" cannot be resolved
+WARNING: Encounter-encounter-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-encounter-001.json.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-encounter-001.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-encounter-001.xml.html#/html/body/div/div/div/p/a at Line 229, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Location-example-location.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Location-example-location.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Location-example-location.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Location-example-location.ttl.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Location-example-location.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Medication-medication-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Medication-medication-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Medication-medication-001.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Medication-medication-001.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Medication-medication-001.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationDispense-dispense-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+ERROR: MedicationDispense-dispense-001.html#/html/body/div/div/div/div/div/div/p/a at Line 170, column 733: The link 'Encounter/example-encounter' for "Encounter/example-encounter" cannot be resolved
+ERROR: MedicationDispense-dispense-001.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 170, column 947: The link 'Practitioner/pharmacist-001' for "Practitioner/pharmacist-001" cannot be resolved
+WARNING: MedicationDispense-dispense-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationDispense-dispense-001.json.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationDispense-dispense-001.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationDispense-dispense-001.xml.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationRequest-medicationrequest-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationRequest-medicationrequest-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationRequest-medicationrequest-001.json.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationRequest-medicationrequest-001.ttl.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: MedicationRequest-medicationrequest-001.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-organization-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-organization-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-organization-001.json.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-organization-001.ttl.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-organization-001.xml.html#/html/body/div/div/div/p/a at Line 230, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-patient-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-patient-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-patient-001.json.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-patient-001.ttl.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-patient-001.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-practitioner-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-practitioner-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-practitioner-001.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-practitioner-001.ttl.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-practitioner-001.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: PractitionerRole-practitioner-role-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: PractitionerRole-practitioner-role-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: PractitionerRole-practitioner-role-001.json.html#/html/body/div/div/div/p/a at Line 236, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: PractitionerRole-practitioner-role-001.ttl.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: PractitionerRole-practitioner-role-001.xml.html#/html/body/div/div/div/p/a at Line 229, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-provenance-001.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Provenance-provenance-001.html#/html/body/div/div/div/div/div/div/p/a at Line 170, column 426: The link 'MedicationRequest/example-medication-request' for "MedicationRequest/example-medication-request" cannot be resolved
+ERROR: Provenance-provenance-001.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 170, column 1210: The link 'Organization/org-hospital' for "Organization/org-hospital" cannot be resolved
+WARNING: Provenance-provenance-001.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-provenance-001.json.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-provenance-001.ttl.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-provenance-001.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient-definitions.html#/html/body/div/div/div/p/a at Line 1142, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient-mappings.html#/html/body/div/div/div/p/a at Line 1597, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient.html#/html/body/div/div/div/p/a at Line 4392, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient.profile.json.html#/html/body/div/div/div/p/a at Line 6490, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 4741, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 5921, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner-definitions.html#/html/body/div/div/div/p/a at Line 631, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner-mappings.html#/html/body/div/div/div/p/a at Line 739, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner.html#/html/body/div/div/div/p/a at Line 2376, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner.profile.json.html#/html/body/div/div/div/p/a at Line 2967, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 2211, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-NgPractitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 2723, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event-definitions.html#/html/body/div/div/div/p/a at Line 635, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event-mappings.html#/html/body/div/div/div/p/a at Line 1072, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event.html#/html/body/div/div/div/p/a at Line 2648, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event.profile.json.html#/html/body/div/div/div/p/a at Line 3552, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event.profile.ttl.html#/html/body/div/div/div/p/a at Line 2628, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-audit-event.profile.xml.html#/html/body/div/div/div/p/a at Line 3293, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage-definitions.html#/html/body/div/div/div/p/a at Line 515, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage-mappings.html#/html/body/div/div/div/p/a at Line 815, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage.html#/html/body/div/div/div/p/a at Line 1996, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage.profile.json.html#/html/body/div/div/div/p/a at Line 2340, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage.profile.ttl.html#/html/body/div/div/div/p/a at Line 1797, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-coverage.profile.xml.html#/html/body/div/div/div/p/a at Line 2177, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task-definitions.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task-mappings.html#/html/body/div/div/div/p/a at Line 760, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task.html#/html/body/div/div/div/p/a at Line 3443, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task.profile.json.html#/html/body/div/div/div/p/a at Line 3238, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task.profile.ttl.html#/html/body/div/div/div/p/a at Line 2335, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-claim-task.profile.xml.html#/html/body/div/div/div/p/a at Line 2983, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication-definitions.html#/html/body/div/div/div/p/a at Line 453, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication-mappings.html#/html/body/div/div/div/p/a at Line 504, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication.html#/html/body/div/div/div/p/a at Line 1949, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication.profile.json.html#/html/body/div/div/div/p/a at Line 1956, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication.profile.ttl.html#/html/body/div/div/div/p/a at Line 1558, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-communication.profile.xml.html#/html/body/div/div/div/p/a at Line 1808, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition-definitions.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition-mappings.html#/html/body/div/div/div/p/a at Line 759, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition.html#/html/body/div/div/div/p/a at Line 2372, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition.profile.json.html#/html/body/div/div/div/p/a at Line 2373, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition.profile.ttl.html#/html/body/div/div/div/p/a at Line 1798, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-condition.profile.xml.html#/html/body/div/div/div/p/a at Line 2219, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle-definitions.html#/html/body/div/div/div/p/a at Line 1401, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle-mappings.html#/html/body/div/div/div/p/a at Line 2547, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle.html#/html/body/div/div/div/p/a at Line 5385, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle.profile.json.html#/html/body/div/div/div/p/a at Line 9769, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle.profile.ttl.html#/html/body/div/div/div/p/a at Line 7371, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-coverage-enquiry-bundle.profile.xml.html#/html/body/div/div/div/p/a at Line 9037, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle-definitions.html#/html/body/div/div/div/p/a at Line 1699, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle-mappings.html#/html/body/div/div/div/p/a at Line 3143, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle.html#/html/body/div/div/div/p/a at Line 6459, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle.profile.json.html#/html/body/div/div/div/p/a at Line 12248, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle.profile.ttl.html#/html/body/div/div/div/p/a at Line 9201, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dispense-notification-bundle.profile.xml.html#/html/body/div/div/div/p/a at Line 11301, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference-definitions.html#/html/body/div/div/div/p/a at Line 520, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference-mappings.html#/html/body/div/div/div/p/a at Line 939, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference.html#/html/body/div/div/div/p/a at Line 2169, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference.profile.json.html#/html/body/div/div/div/p/a at Line 2718, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference.profile.ttl.html#/html/body/div/div/div/p/a at Line 2032, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-document-reference.profile.xml.html#/html/body/div/div/div/p/a at Line 2554, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage-definitions.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage-mappings.html#/html/body/div/div/div/p/a at Line 350, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage.html#/html/body/div/div/div/p/a at Line 1505, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage.profile.json.html#/html/body/div/div/div/p/a at Line 1357, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage.profile.ttl.html#/html/body/div/div/div/p/a at Line 1068, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-dosage.profile.xml.html#/html/body/div/div/div/p/a at Line 1235, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request-definitions.html#/html/body/div/div/div/p/a at Line 560, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request-mappings.html#/html/body/div/div/div/p/a at Line 726, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request.html#/html/body/div/div/div/p/a at Line 2196, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request.profile.json.html#/html/body/div/div/div/p/a at Line 2514, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request.profile.ttl.html#/html/body/div/div/div/p/a at Line 1974, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-eligibility-request.profile.xml.html#/html/body/div/div/div/p/a at Line 2327, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization-definitions.html#/html/body/div/div/div/p/a at Line 613, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization-mappings.html#/html/body/div/div/div/p/a at Line 729, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization.html#/html/body/div/div/div/p/a at Line 2663, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization.profile.json.html#/html/body/div/div/div/p/a at Line 3051, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 2284, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-imm-organization.profile.xml.html#/html/body/div/div/div/p/a at Line 2785, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location-definitions.html#/html/body/div/div/div/p/a at Line 467, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location-mappings.html#/html/body/div/div/div/p/a at Line 449, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location.html#/html/body/div/div/div/p/a at Line 1899, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location.profile.json.html#/html/body/div/div/div/p/a at Line 2007, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location.profile.ttl.html#/html/body/div/div/div/p/a at Line 1567, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-location.profile.xml.html#/html/body/div/div/div/p/a at Line 1838, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-definitions.html#/html/body/div/div/div/p/a at Line 431, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense-definitions.html#/html/body/div/div/div/p/a at Line 485, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense-mappings.html#/html/body/div/div/div/p/a at Line 752, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense.html#/html/body/div/div/div/p/a at Line 2156, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense.profile.json.html#/html/body/div/div/div/p/a at Line 2468, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense.profile.ttl.html#/html/body/div/div/div/p/a at Line 1891, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-dispense.profile.xml.html#/html/body/div/div/div/p/a at Line 2282, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-mappings.html#/html/body/div/div/div/p/a at Line 522, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request-definitions.html#/html/body/div/div/div/p/a at Line 582, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request-mappings.html#/html/body/div/div/div/p/a at Line 939, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request.html#/html/body/div/div/div/p/a at Line 2544, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request.profile.json.html#/html/body/div/div/div/p/a at Line 3262, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request.profile.ttl.html#/html/body/div/div/div/p/a at Line 2464, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-request.profile.xml.html#/html/body/div/div/div/p/a at Line 3043, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication.html#/html/body/div/div/div/p/a at Line 1776, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication.profile.json.html#/html/body/div/div/div/p/a at Line 1621, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication.profile.ttl.html#/html/body/div/div/div/p/a at Line 1265, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-medication.profile.xml.html#/html/body/div/div/div/p/a at Line 1526, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole-definitions.html#/html/body/div/div/div/p/a at Line 437, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole-mappings.html#/html/body/div/div/div/p/a at Line 569, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole.html#/html/body/div/div/div/p/a at Line 1711, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole.profile.json.html#/html/body/div/div/div/p/a at Line 1873, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole.profile.ttl.html#/html/body/div/div/div/p/a at Line 1452, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-practitionerrole.profile.xml.html#/html/body/div/div/div/p/a at Line 1728, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle-definitions.html#/html/body/div/div/div/p/a at Line 1697, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle-mappings.html#/html/body/div/div/div/p/a at Line 3143, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle.html#/html/body/div/div/div/p/a at Line 6459, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle.profile.json.html#/html/body/div/div/div/p/a at Line 12254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle.profile.ttl.html#/html/body/div/div/div/p/a at Line 9203, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-bundle.profile.xml.html#/html/body/div/div/div/p/a at Line 11306, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter-definitions.html#/html/body/div/div/div/p/a at Line 599, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter-mappings.html#/html/body/div/div/div/p/a at Line 919, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter.html#/html/body/div/div/div/p/a at Line 2714, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter.profile.json.html#/html/body/div/div/div/p/a at Line 3761, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter.profile.ttl.html#/html/body/div/div/div/p/a at Line 2829, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-prescription-encounter.profile.xml.html#/html/body/div/div/div/p/a at Line 3414, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance-definitions.html#/html/body/div/div/div/p/a at Line 445, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance-mappings.html#/html/body/div/div/div/p/a at Line 606, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance.html#/html/body/div/div/div/p/a at Line 1718, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance.profile.json.html#/html/body/div/div/div/p/a at Line 1895, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance.profile.ttl.html#/html/body/div/div/div/p/a at Line 1466, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-ng-provenance.profile.xml.html#/html/body/div/div/div/p/a at Line 1764, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Task-example-claim-task.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+ERROR: Task-example-claim-task.html#/html/body/div/div/div/div/div/div/p/a at Line 170, column 653: The link 'MedicationRequest/example-medication-request' for "MedicationRequest/example-medication-request" cannot be resolved
+ERROR: Task-example-claim-task.html#/html/body/div/div/div/div/div/div/p/a at Line 170, column 853: The link 'Organization/org-hospital' for "Organization/org-hospital" cannot be resolved
+ERROR: Task-example-claim-task.html#/html/body/div/div/div/div/div/div/p/a at Line 170, column 939: The link 'Practitioner/pharmacist-001' for "Practitioner/pharmacist-001" cannot be resolved
+WARNING: Task-example-claim-task.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Task-example-claim-task.json.html#/html/body/div/div/div/p/a at Line 225, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Task-example-claim-task.ttl.html#/html/body/div/div/div/p/a at Line 236, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Task-example-claim-task.xml.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-facility-types-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-facility-types.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-facility-types.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-facility-types.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-facility-types.ttl.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-facility-types.xml.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-gender-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-gender.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-gender.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-gender.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-gender.ttl.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-gender.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-languages-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-languages.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-languages.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-languages.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-languages.ttl.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-languages.xml.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-lgas-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-lgas.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-lgas.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-lgas.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-lgas.ttl.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-lgas.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-location-owner-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-location-owner.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-location-owner.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-location-owner.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-location-owner.ttl.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-location-owner.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-states-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-states.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-states.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-states.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-states.ttl.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-states.xml.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-wards-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-wards.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-wards.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-wards.json.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-wards.ttl.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-nigeria-wards.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 661, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: index.html#/html/body/div/div/div/p/a at Line 388, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'https://pcn.gov.ng' for "PCN" is a canonical link and is therefore unsafe with regard to versions
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/AuditEvent-audit-001.json ==
+ERROR: AuditEvent/audit-001: AuditEvent.source.observer: Unable to resolve resource with reference 'Organization/org-hospital'
+ERROR: AuditEvent/audit-001: AuditEvent.entity[0].what: Unable to resolve resource with reference 'MedicationRequest/example-medication-request'
+WARNING: AuditEvent/audit-001: AuditEvent.entity[0].type: A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: AuditEvent.text.div: Hyperlink 'Organization/org-hospital' at 'div/table/tr/td/a' for 'Organization/org-hospital' does not resolve
+ERROR: AuditEvent.text.div: Hyperlink 'MedicationRequest/example-medication-request' at 'div/table/tr/td/a' for 'MedicationRequest/example-medication-request' does not resolve
+== fsh-generated/resources/CodeSystem-nigeria-facility-type.json ==
+INFORMATION: CodeSystem/nigeria-facility-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/nigeria-facility-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/nigeria-facility-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-nigeria-gender.json ==
+INFORMATION: CodeSystem/nigeria-gender: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/nigeria-gender: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/nigeria-gender: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-nigeria-languages.json ==
+WARNING: CodeSystem/nigeria-languages: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-nigeria-lgas.json ==
+WARNING: CodeSystem/nigeria-lgas: CodeSystem.concept[60].definition: value should not start or finish with whitespace ' okobo LGA'
+WARNING: CodeSystem/nigeria-lgas: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-nigeria-location-owner-cs.json ==
+INFORMATION: CodeSystem/nigeria-location-owner-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/nigeria-location-owner-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/nigeria-location-owner-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-nigeria-states.json ==
+WARNING: CodeSystem/nigeria-states: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-nigeria-wards.json ==
+WARNING: CodeSystem/nigeria-wards: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+== fsh-generated/resources/Communication-example-communication.json ==
+ERROR: Communication/example-communication: Communication.sender: Unable to resolve resource with reference 'Practitioner/pharmacist-001'
+ERROR: Communication.text.div: Hyperlink 'Practitioner/pharmacist-001' at 'div/p/a' for 'Practitioner/pharmacist-001' does not resolve
+== fsh-generated/resources/Condition-condition-001.json ==
+== fsh-generated/resources/Coverage-coverage-001.json ==
+WARNING: Coverage/coverage-001: Coverage.type.coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/coverage-type' could not be found, so the code cannot be validated
+ERROR: Coverage/coverage-001: Coverage.type.coding[0].system: No definition could be found for URL value 'http://terminology.hl7.org/CodeSystem/coverage-type'
+ERROR: Coverage/coverage-001: Coverage.beneficiary: Unable to resolve resource with reference 'urn:uuid:patient-001'
+ERROR: Coverage/coverage-001: Coverage.payor[0]: Unable to resolve resource with reference 'urn:uuid:organization-001'
+== fsh-generated/resources/CoverageEligibilityRequest-eligibility-request-001.json ==
+ERROR: CoverageEligibilityRequest/eligibility-request-001: CoverageEligibilityRequest.purpose[0]: The System URI could not be determined for the code 'test' in the ValueSet 'http://hl7.org/fhir/ValueSet/eligibilityrequest-purpose|4.0.1'
+ERROR: CoverageEligibilityRequest/eligibility-request-001: CoverageEligibilityRequest.purpose[0]: The value provided ('test') was not found in the value set 'EligibilityRequestPurpose' (http://hl7.org/fhir/ValueSet/eligibilityrequest-purpose|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'test' in the ValueSet 'http://hl7.org/fhir/ValueSet/eligibilityrequest-purpose|4.0.1'; The provided code '#test' was not found in the value set 'http://hl7.org/fhir/ValueSet/eligibilityrequest-purpose|4.0.1')
+ERROR: CoverageEligibilityRequest/eligibility-request-001: CoverageEligibilityRequest.patient: Unable to resolve resource with reference 'urn:uuid:patient-001'
+ERROR: CoverageEligibilityRequest/eligibility-request-001: CoverageEligibilityRequest.provider: Unable to resolve resource with reference 'urn:uuid:practitioner-001'
+ERROR: CoverageEligibilityRequest/eligibility-request-001: CoverageEligibilityRequest.insurer: Unable to resolve resource with reference 'urn:uuid:organization-001'
+ERROR: CoverageEligibilityRequest/eligibility-request-001: CoverageEligibilityRequest.insurance[0].coverage: Unable to resolve resource with reference 'urn:uuid:coverage-001'
+== fsh-generated/resources/DocumentReference-example-document-reference.json ==
+WARNING: DocumentReference/example-document-reference: DocumentReference.category[0].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/document-classcodes' could not be found, so the code cannot be validated
+ERROR: DocumentReference/example-document-reference: DocumentReference.category[0].coding[0].system: No definition could be found for URL value 'http://terminology.hl7.org/CodeSystem/document-classcodes'
+ERROR: DocumentReference/example-document-reference: DocumentReference.custodian: Unable to resolve resource with reference 'Organization/org-hospital'
+WARNING: DocumentReference/example-document-reference: DocumentReference.content[0].format.system: A definition for CodeSystem 'http://ihe.net/fhir/ihe.formatcode.fhir' could not be found, so the code cannot be validated
+ERROR: DocumentReference/example-document-reference: DocumentReference.context.facilityType.coding[0].display: Wrong Display Name 'Hospital facility' for http://terminology.hl7.org/CodeSystem/service-type#322. Valid display is 'District Nursing' (for the language(s) 'en-US')
+ERROR: DocumentReference.text.div: Hyperlink 'Organization/org-hospital' at 'div/p/a' for 'Organization/org-hospital' does not resolve
+== fsh-generated/resources/Encounter-encounter-001.json ==
+ERROR: Encounter/encounter-001: Encounter.serviceProvider: Unable to resolve resource with reference 'Organization/org-hospital'
+ERROR: Encounter.text.div: Hyperlink 'Organization/org-hospital' at 'div/p/a' for 'Organization/org-hospital' does not resolve
+== fsh-generated/resources/ImplementationGuide-ePharmacyIG.json ==
+WARNING: ImplementationGuide/ePharmacyIG: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+== fsh-generated/resources/Location-example-location.json ==
+== fsh-generated/resources/Medication-medication-001.json ==
+WARNING: Medication/medication-001: Medication.code.coding[0].system: A definition for CodeSystem 'http://www.nafdac.gov.ng/research/umls/rxnorm' could not be found, so the code cannot be validated
+WARNING: Medication/medication-001: Medication.form.coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/medication-form' could not be found, so the code cannot be validated
+ERROR: Medication/medication-001: Medication.form.coding[0].system: No definition could be found for URL value 'http://terminology.hl7.org/CodeSystem/medication-form'
+== fsh-generated/resources/MedicationDispense-dispense-001.json ==
+ERROR: MedicationDispense/dispense-001: MedicationDispense.medication.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Amoxicillin 250mg Capsule' for http://www.nlm.nih.gov/research/umls/rxnorm#723. Valid display is 'amoxicillin' (for the language(s) 'en-US')
+ERROR: MedicationDispense/dispense-001: MedicationDispense.context: Unable to resolve resource with reference 'Encounter/example-encounter'
+ERROR: MedicationDispense/dispense-001: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/pharmacist-001'
+ERROR: MedicationDispense.text.div: Hyperlink 'Encounter/example-encounter' at 'div/p/a' for 'Encounter/example-encounter' does not resolve
+ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/pharmacist-001' at 'div/table/tr/td/a' for 'Practitioner/pharmacist-001' does not resolve
+== fsh-generated/resources/MedicationRequest-medicationrequest-001.json ==
+ERROR: MedicationRequest/medicationrequest-001: MedicationRequest.medication.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Amoxicillin 250mg Capsule' for http://www.nlm.nih.gov/research/umls/rxnorm#723. Valid display is 'amoxicillin' (for the language(s) 'en-US')
+ERROR: MedicationRequest/medicationrequest-001: MedicationRequest.subject: Unable to resolve resource with reference 'NgPatient/patient-001'
+ERROR: MedicationRequest/medicationrequest-001: MedicationRequest.encounter: Unable to resolve resource with reference 'NgEncounter/encounter-001'
+ERROR: MedicationRequest/medicationrequest-001: MedicationRequest.requester: Unable to resolve resource with reference 'NgPractitioner/practitioner-001'
+ERROR: MedicationRequest/medicationrequest-001: MedicationRequest.recorder: Unable to resolve resource with reference 'NgPractitioner/practitioner-001'
+== fsh-generated/resources/Organization-organization-001.json ==
+WARNING: Organization/organization-001: Organization.identifier[0].system: No definition could be found for URL value 'https://herfama.lagos.ng'
+ERROR: Organization/organization-001: Organization.type[0]: None of the codings provided are in the value set 'NG-Imm HealthFacility Type VS' (https://pcn.gov.ng/ValueSet/nigeria-facility-types|0.1.0), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/organization-type#prov)
+ERROR: Organization/organization-001: Organization.address[0].district: The System URI could not be determined for the code 'ikeja' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0'
+ERROR: Organization/organization-001: Organization.address[0].district: The value provided ('ikeja') was not found in the value set 'NG-Imm LGAs VS' (https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'ikeja' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0'; The provided code '#ikeja' was not found in the value set 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0')
+ERROR: Organization/organization-001: Organization.address[0].state: The System URI could not be determined for the code 'Lagos' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0'
+ERROR: Organization/organization-001: Organization.address[0].state: The value provided ('Lagos') was not found in the value set 'NG-Imm States VS' (https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'Lagos' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0'; The provided code '#Lagos' was not found in the value set 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0')
+== fsh-generated/resources/Patient-patient-001.json ==
+WARNING: Patient/patient-001: Patient.identifier[0].system: No definition could be found for URL value 'https://nimc.gov.ng'
+ERROR: Patient/patient-001: Patient.address[0].district: The System URI could not be determined for the code 'nsukka' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0'
+ERROR: Patient/patient-001: Patient.address[0].district: The value provided ('nsukka') was not found in the value set 'NG-Imm LGAs VS' (https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'nsukka' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0'; The provided code '#nsukka' was not found in the value set 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0')
+ERROR: Patient/patient-001: Patient.address[0].state: The System URI could not be determined for the code 'Enugu' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0'
+ERROR: Patient/patient-001: Patient.address[0].state: The value provided ('Enugu') was not found in the value set 'NG-Imm States VS' (https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'Enugu' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0'; The provided code '#Enugu' was not found in the value set 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0')
+ERROR: Patient/patient-001: Patient.contact[0].address.district: The System URI could not be determined for the code 'nsukka' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0'
+ERROR: Patient/patient-001: Patient.contact[0].address.district: The value provided ('nsukka') was not found in the value set 'NG-Imm LGAs VS' (https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'nsukka' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0'; The provided code '#nsukka' was not found in the value set 'https://pcn.gov.ng/ValueSet/nigeria-lgas|0.1.0')
+ERROR: Patient/patient-001: Patient.contact[0].address.state: The System URI could not be determined for the code 'Enugu' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0'
+ERROR: Patient/patient-001: Patient.contact[0].address.state: The value provided ('Enugu') was not found in the value set 'NG-Imm States VS' (https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'Enugu' in the ValueSet 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0'; The provided code '#Enugu' was not found in the value set 'https://pcn.gov.ng/ValueSet/nigeria-states|0.1.0')
+== fsh-generated/resources/Practitioner-practitioner-001.json ==
+WARNING: Practitioner/practitioner-001: Practitioner.identifier[0].system: No definition could be found for URL value 'https://mdcn.gov.ng'
+== fsh-generated/resources/PractitionerRole-practitioner-role-001.json ==
+WARNING: PractitionerRole/practitioner-role-001: PractitionerRole.specialty[0].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/c80-practice-codes' could not be found, so the code cannot be validated
+ERROR: PractitionerRole/practitioner-role-001: PractitionerRole.specialty[0].coding[0].system: No definition could be found for URL value 'http://terminology.hl7.org/CodeSystem/c80-practice-codes'
+== fsh-generated/resources/Provenance-provenance-001.json ==
+ERROR: Provenance/provenance-001: Provenance.target[0]: Unable to resolve resource with reference 'MedicationRequest/example-medication-request'
+ERROR: Provenance/provenance-001: Provenance.agent[0].onBehalfOf: Unable to resolve resource with reference 'Organization/org-hospital'
+ERROR: Provenance.text.div: Hyperlink 'MedicationRequest/example-medication-request' at 'div/p/a' for 'MedicationRequest/example-medication-request' does not resolve
+ERROR: Provenance.text.div: Hyperlink 'Organization/org-hospital' at 'div/table/tr/td/a' for 'Organization/org-hospital' does not resolve
+== fsh-generated/resources/StructureDefinition-NgPatient.json ==
+ERROR: NG Patient.Patient.gender: Binding https://pcn.gov.ng/ValueSet/nigeria-gender is not a subset of binding http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1 because The codes 'female,male' are not in the base valueset
+INFORMATION: StructureDefinition/NgPatient: StructureDefinition.snapshot.element[12].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated/resources/StructureDefinition-NgPractitioner.json ==
+== fsh-generated/resources/StructureDefinition-ng-audit-event.json ==
+== fsh-generated/resources/StructureDefinition-ng-claim-coverage.json ==
+== fsh-generated/resources/StructureDefinition-ng-claim-task.json ==
+== fsh-generated/resources/StructureDefinition-ng-communication.json ==
+== fsh-generated/resources/StructureDefinition-ng-condition.json ==
+== fsh-generated/resources/StructureDefinition-ng-coverage-enquiry-bundle.json ==
+WARNING: StructureDefinition/ng-coverage-enquiry-bundle: StructureDefinition.snapshot: The slice 'coverageEligibilityRequest' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-coverage-enquiry-bundle: StructureDefinition.snapshot: The slice 'patient' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-coverage-enquiry-bundle: StructureDefinition.snapshot: The slice 'coverage' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-coverage-enquiry-bundle: StructureDefinition.snapshot: The slice 'organization' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-coverage-enquiry-bundle: StructureDefinition.snapshot: The slice 'practitioner' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-coverage-enquiry-bundle: StructureDefinition.snapshot: The slice 'coverageEligibilityResponse' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition.where(url = 'https://pcn.gov.ng/StructureDefinition/ng-coverage-enquiry-bundle'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ng-dispense-notification-bundle.json ==
+WARNING: StructureDefinition/ng-dispense-notification-bundle: StructureDefinition.snapshot: The slice 'medicationDispense' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-dispense-notification-bundle: StructureDefinition.snapshot: The slice 'medicationRequest' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-dispense-notification-bundle: StructureDefinition.snapshot: The slice 'medication' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-dispense-notification-bundle: StructureDefinition.snapshot: The slice 'patient' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-dispense-notification-bundle: StructureDefinition.snapshot: The slice 'practitioner' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-dispense-notification-bundle: StructureDefinition.snapshot: The slice 'organization' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-dispense-notification-bundle: StructureDefinition.snapshot: The slice 'provenance' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-dispense-notification-bundle: StructureDefinition.snapshot: The slice 'auditEvent' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition.where(url = 'https://pcn.gov.ng/StructureDefinition/ng-dispense-notification-bundle'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ng-document-reference.json ==
+== fsh-generated/resources/StructureDefinition-ng-dosage.json ==
+WARNING: StructureDefinition.where(url = 'https://pcn.gov.ng/StructureDefinition/ng-dosage'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-ng-eligibility-request.json ==
+== fsh-generated/resources/StructureDefinition-ng-imm-organization.json ==
+== fsh-generated/resources/StructureDefinition-ng-location.json ==
+== fsh-generated/resources/StructureDefinition-ng-medication.json ==
+== fsh-generated/resources/StructureDefinition-ng-medication-dispense.json ==
+INFORMATION: StructureDefinition/ng-medication-dispense: StructureDefinition.snapshot.element[28].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated/resources/StructureDefinition-ng-medication-request.json ==
+== fsh-generated/resources/StructureDefinition-ng-practitionerrole.json ==
+== fsh-generated/resources/StructureDefinition-ng-prescription-bundle.json ==
+WARNING: StructureDefinition/ng-prescription-bundle: StructureDefinition.snapshot: The slice 'patient' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-prescription-bundle: StructureDefinition.snapshot: The slice 'medicationRequest' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-prescription-bundle: StructureDefinition.snapshot: The slice 'practitioner' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-prescription-bundle: StructureDefinition.snapshot: The slice 'encounter' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-prescription-bundle: StructureDefinition.snapshot: The slice 'condition' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-prescription-bundle: StructureDefinition.snapshot: The slice 'medication' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-prescription-bundle: StructureDefinition.snapshot: The slice 'organization' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/ng-prescription-bundle: StructureDefinition.snapshot: The slice 'provenance' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition.where(url = 'https://pcn.gov.ng/StructureDefinition/ng-prescription-bundle'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ng-prescription-encounter.json ==
+== fsh-generated/resources/StructureDefinition-ng-provenance.json ==
+== fsh-generated/resources/Task-example-claim-task.json ==
+ERROR: Task/example-claim-task: Task.for: Unable to resolve resource with reference 'MedicationRequest/example-medication-request'
+ERROR: Task/example-claim-task: Task.requester: Unable to resolve resource with reference 'Organization/org-hospital'
+ERROR: Task/example-claim-task: Task.owner: Unable to resolve resource with reference 'Practitioner/pharmacist-001'
+ERROR: Task.text.div: Hyperlink 'MedicationRequest/example-medication-request' at 'div/p/a' for 'MedicationRequest/example-medication-request' does not resolve
+ERROR: Task.text.div: Hyperlink 'Organization/org-hospital' at 'div/p/a' for 'Organization/org-hospital' does not resolve
+ERROR: Task.text.div: Hyperlink 'Practitioner/pharmacist-001' at 'div/p/a' for 'Practitioner/pharmacist-001' does not resolve
+== fsh-generated/resources/ValueSet-nigeria-facility-types.json ==
+WARNING: ValueSet/nigeria-facility-types: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-nigeria-gender.json ==
+WARNING: ValueSet/nigeria-gender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-nigeria-languages.json ==
+WARNING: ValueSet/nigeria-languages: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-nigeria-lgas.json ==
+WARNING: ValueSet/nigeria-lgas: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-nigeria-location-owner.json ==
+WARNING: ValueSet/nigeria-location-owner: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-nigeria-states.json ==
+WARNING: ValueSet/nigeria-states: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-nigeria-wards.json ==
+WARNING: ValueSet/nigeria-wards: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

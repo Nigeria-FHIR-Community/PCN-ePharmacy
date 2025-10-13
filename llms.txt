@@ -1,0 +1,79 @@
+# ePharmacyIG#0.1.0: PCN ePharmacy Implementation Guide
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [NG-Imm Facility Type CS](CodeSystem-nigeria-facility-type.md)
+* [NG-Imm Gender CS](CodeSystem-nigeria-gender.md)
+* [NG‑Imm Languages in Nigeria CS](CodeSystem-nigeria-languages.md)
+* [NG-Imm LGAs in Nigeria CS](CodeSystem-nigeria-lgas.md)
+* [NG-Imm Location Owner CS](CodeSystem-nigeria-location-owner-cs.md)
+* [NG-Imm States in Nigeria CS](CodeSystem-nigeria-states.md)
+* [NG-Imm Administrative Wards CS](CodeSystem-nigeria-wards.md)
+
+### ValueSets
+
+* [NG-Imm HealthFacility Type VS](ValueSet-nigeria-facility-types.md)
+* [NG-Imm Gender or Sex VS](ValueSet-nigeria-gender.md)
+* [NG-Imm Languages VS](ValueSet-nigeria-languages.md)
+* [NG-Imm LGAs VS](ValueSet-nigeria-lgas.md)
+* [NG-Imm Location Owner](ValueSet-nigeria-location-owner.md)
+* [NG-Imm States VS](ValueSet-nigeria-states.md)
+* [NG-Imm Wards VS](ValueSet-nigeria-wards.md)
+
+### Complex-type Profiles
+
+* [NG Dosage](StructureDefinition-ng-dosage.md)
+
+### Resource Profiles
+
+* [NG Patient](StructureDefinition-NgPatient.md)
+* [NG Practitioner](StructureDefinition-NgPractitioner.md)
+* [NG AuditEvent](StructureDefinition-ng-audit-event.md)
+* [NG-Claim Coverage](StructureDefinition-ng-claim-coverage.md)
+* [NG Task](StructureDefinition-ng-claim-task.md)
+* [NG Communication](StructureDefinition-ng-communication.md)
+* [NG Condition](StructureDefinition-ng-condition.md)
+* [1-NG Bundle Coverage Enquiry](StructureDefinition-ng-coverage-enquiry-bundle.md)
+* [2-NG Bundle Dispense Notification](StructureDefinition-ng-dispense-notification-bundle.md)
+* [NG DocumentReference](StructureDefinition-ng-document-reference.md)
+* [NG-CoverageEligibilityRequest](StructureDefinition-ng-eligibility-request.md)
+* [NG Organization](StructureDefinition-ng-imm-organization.md)
+* [NG Location](StructureDefinition-ng-location.md)
+* [NG MedicationDispense](StructureDefinition-ng-medication-dispense.md)
+* [NG MedicationRequest](StructureDefinition-ng-medication-request.md)
+* [NG Medication](StructureDefinition-ng-medication.md)
+* [NG PractitionerRole](StructureDefinition-ng-practitionerrole.md)
+* [3-NG Bundle Prescription](StructureDefinition-ng-prescription-bundle.md)
+* [NG Encounter](StructureDefinition-ng-prescription-encounter.md)
+* [NG Provenance](StructureDefinition-ng-provenance.md)
+
+### ImplementationGuides
+
+* [PCN ePharmacy Implementation Guide](index.md)
+
+### Examples
+
+* [audit-001 (AuditEvent)](AuditEvent-audit-001.md)
+* [example-communication (Communication)](Communication-example-communication.md)
+* [condition-001 (Condition)](Condition-condition-001.md)
+* [coverage-001 (Coverage)](Coverage-coverage-001.md)
+* [eligibility-request-001 (CoverageEligibilityRequest)](CoverageEligibilityRequest-eligibility-request-001.md)
+* [example-document-reference (DocumentReference)](DocumentReference-example-document-reference.md)
+* [encounter-001 (Encounter)](Encounter-encounter-001.md)
+* [Gwagwalada Community Pharmacy (Location)](Location-example-location.md)
+* [medication-001 (Medication)](Medication-medication-001.md)
+* [dispense-001 (MedicationDispense)](MedicationDispense-dispense-001.md)
+* [medicationrequest-001 (MedicationRequest)](MedicationRequest-medicationrequest-001.md)
+* [Sunlight Medical Center (Organization)](Organization-organization-001.md)
+* [patient-001 (Patient)](Patient-patient-001.md)
+* [practitioner-001 (Practitioner)](Practitioner-practitioner-001.md)
+* [practitioner-role-001 (PractitionerRole)](PractitionerRole-practitioner-role-001.md)
+* [provenance-001 (Provenance)](Provenance-provenance-001.md)
+* [example-claim-task (Task)](Task-example-claim-task.md)
