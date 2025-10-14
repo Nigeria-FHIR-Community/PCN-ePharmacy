@@ -2220,7 +2220,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yKQb6EDtVfQY0wfYbikE" name="i-Medication Delivery">
-    <mxGraphModel dx="1096" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1398" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2313,10 +2313,13 @@
           <mxGeometry y="20" width="1120" height="340" as="geometry" />
         </mxCell>
         <mxCell id="PDn_Y5A-AyzNaaovJCkO-4" value="&lt;div&gt;&lt;b&gt;H. Client Counseling and Education&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="PDn_Y5A-AyzNaaovJCkO-3" vertex="1">
-          <mxGeometry x="35" y="149" width="60" height="90" as="geometry" />
+          <mxGeometry x="35" y="162" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_R1p_f-OFR-vngqRPimi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PDn_Y5A-AyzNaaovJCkO-3" source="PDn_Y5A-AyzNaaovJCkO-6" target="_R1p_f-OFR-vngqRPimi-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PDn_Y5A-AyzNaaovJCkO-6" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=catching;symbol=link;" parent="PDn_Y5A-AyzNaaovJCkO-3" vertex="1">
-          <mxGeometry x="30" y="95.25" width="50" height="50" as="geometry" />
+          <mxGeometry x="30" y="122.39" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8Z96pBLggB5yj_hKNUZ7-1" value="&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 13px; white-space-collapse: preserve;&quot;&gt;10. &lt;/span&gt;&lt;/font&gt;&lt;span id=&quot;docs-internal-guid-9819cfc3-7fff-851e-137c-ec3ead36217a&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Handover medication to Client&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="PDn_Y5A-AyzNaaovJCkO-3">
           <mxGeometry x="254" y="20" width="130" height="77" as="geometry" />
@@ -2356,7 +2359,7 @@
           <mxGeometry x="107" y="101.38" width="110" height="92.01" as="geometry" />
         </mxCell>
         <mxCell id="_R1p_f-OFR-vngqRPimi-8" value="Virtual" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" vertex="1" parent="PDn_Y5A-AyzNaaovJCkO-3">
-          <mxGeometry x="200" y="109" width="60" height="30" as="geometry" />
+          <mxGeometry x="203" y="132.39" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_R1p_f-OFR-vngqRPimi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="nyfPQLbmeAGctX1n_xEa-43" source="8Z96pBLggB5yj_hKNUZ7-1" target="PDn_Y5A-AyzNaaovJCkO-18">
           <mxGeometry relative="1" as="geometry" />
